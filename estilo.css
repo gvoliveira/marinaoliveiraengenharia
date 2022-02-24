@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
 :root {
-  --cor-escuro: #261932;
+  --cor-escuro: #3d2c3c;
   --cor-rosa: #974269;
   --cor-clara: #9d859b;
   --cor-fundo: #f9f9f9;
@@ -170,7 +172,8 @@ img {
 }
 
 .logo {
-  font-family: "Poppins", sans-serif;
+  /*font-family: "Poppins", sans-serif;*/
+  font-family: 'Berkshire Swash', cursive;
   font-weight: 700;
   font-size: 1.3rem;
   color: var(--cor-escuro);
@@ -506,6 +509,15 @@ footer .social a:hover {
 .voltar-topo.show {
   visibility: visible;
   opacity: 1;
+}
+
+
+.depos a{
+  color: var(--cor-clara);
+}
+
+.depos a:visited{
+  color: var(--cor-rosa);
 }
 
 /*responsividade com breakpoints
